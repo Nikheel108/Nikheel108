@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Waving" width="50" height="50" />
-  <h1>Hi, I'm Nikheel</h1>
-  <p><b>Turning ideas into complete, working systems</b></p>
-  <p>Machine Learning • Embedded Systems • IoT • Research</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00E5FF,00BF8F,11998E&height=200&section=header&text=Nikheel%20Khadakabhavi&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
+
+  <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="120" />
+  
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00BF8F&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Nikheel!+%F0%9F%91%8B;Turning+ideas+into+working+systems;Machine+Learning+%7C+Embedded+%7C+IoT;Research+%26+Hardware+Integration" alt="Typing SVG" /></a>
 </div>
 
 <br/>
