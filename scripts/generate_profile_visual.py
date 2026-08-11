@@ -291,10 +291,23 @@ def main():
     if not token:
         print('Error: set GITHUB_TOKEN environment variable')
         sys.exit(1)
-    user = get_user(token)
-    username = user.get('login')
+    username = None
+    try:
+        user = get_user(token)
+        username = user.get('login')
+    except Exception:
+        # In Actions the token may not allow /user; fall back to repo owner or actor
+        gh_repo = os.environ.get('GITHUB_REPOSITORY')
+        if gh_repo and '/' in gh_repo:
+            username = gh_repo.split('/')[0]
+            print(f'Using GITHUB_REPOSITORY owner as username fallback: {username}')
+        else:
+            actor = os.environ.get('GITHUB_ACTOR')
+            if actor:
+                username = actor
+                print(f'Using GITHUB_ACTOR as username fallback: {username}')
     if not username:
-        print('Failed to detect username')
+        print('Failed to detect username; ensure token or set GITHUB_REPOSITORY/GITHUB_ACTOR env vars')
         sys.exit(1)
 
     print('Gathering repositories for', username)
