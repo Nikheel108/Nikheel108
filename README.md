@@ -54,9 +54,9 @@ I don't just build individual components—I enjoy connecting the pieces and tur
   <h3>🧊 3D Contribution Graph</h3>
   <!-- This image is generated automatically by a GitHub Action -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
     <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg">
-    <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-view.svg" width="100%">
+    <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-green.svg" width="100%">
   </picture>
 </div>
 
