@@ -3,7 +3,7 @@
 
   <img align="right" src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bb/512.gif" alt="💻" width="120" />
   
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Nikheel!+%F0%9F%91%8B;Frontend+%7C+Python+%7C+Java;Building+interactive+UIs;Exploring+Quantum+Computing" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Nikheel!+%F0%9F%91%8B;Frontend+%7C+Python+%7C+Java;Building+End-to-end+Projects;Building+Embedding+Systems;Focusing+on+ML+Models" alt="Typing SVG" /></a>
 </div>
 
 <br/>
@@ -41,10 +41,10 @@ Hello! I'm Nikheel, a developer who loves building everything from interactive, 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Nikheel108&show_icons=true&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikheel108&theme=dark&background=0d1117&ring=FF0080&fire=FF0080&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00E5FF&sideLabels=00E5FF&dates=ffffff&stroke=7928CA" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Nikheel108&show_icons=true&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="GitHub Stats" height="195" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikheel108&theme=dark&background=0d1117&ring=FF0080&fire=FF0080&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00E5FF&sideLabels=00E5FF&dates=ffffff&stroke=7928CA" alt="GitHub Streak" height="195" />
   <br/><br/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Nikheel108&layout=compact&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Nikheel108&layout=compact&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="Top Languages" />
 </div>
 
 
