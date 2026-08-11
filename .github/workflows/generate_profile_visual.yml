@@ -22,5 +22,5 @@ jobs:
 
       - name: Generate and upload SVG
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_profile_visual.py
