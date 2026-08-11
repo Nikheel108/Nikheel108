@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5600 360" width="100%" height="auto">
+<style>
+    .bg{fill:#0b1220}
+    .label{fill:#c9d1d9;font-family:Segoe UI,Helvetica,Arial; font-size:12px;}
+    .title{fill:#fffb; font-family:Segoe UI,Helvetica,Arial; font-weight:700; font-size:20px;}
+    .building{filter:url(#glow); transform-origin: center bottom;}
+    @keyframes pulse {
+      0% { filter: drop-shadow(0 0 0px rgba(255,255,255,0)); transform: translateY(0); }
+      50% { filter: drop-shadow(0 10px 12px rgba(0,0,0,0.35)); transform: translateY(-6px); }
+      100% { filter: drop-shadow(0 0 0px rgba(255,255,255,0)); transform: translateY(0); }
+    }
+    .spin{animation: spin 6s linear infinite; transform-origin:center center}
+    @keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
+    .pulse-fast{animation: pulse 2.8s ease-in-out infinite}
+    .typing {overflow:hidden; white-space:nowrap; border-right:3px solid rgba(255,255,255,0.15); animation: typing 4s steps(28,end) infinite, blink .8s steps(1,end) infinite;}
+    @keyframes typing { from { width: 0 } to { width: 14em } }
+    @keyframes blink { 50% { border-color: transparent } }
+    .star{fill:gold; opacity:0.95}
+    </style>
+<defs>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="100%" height="100%" class="bg"/>
+<text x="28" y="40" class="title">Coding Activity</text>
+<text x="28" y="70" class="label typing">Nikheel108 — Live activity overview</text>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="60,300 120,300 120,225 60,225" fill="#3572A5" opacity="0.95"/>
+<polygon points="60,225 120,225 90,205 30,205" fill="#ffffff" opacity="0.06"/>
+<text x="60" y="330" class="label">Nikheel108</text>
+<text x="60" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="220,300 280,300 280,103 220,103" fill="#3572A5" opacity="0.95"/>
+<polygon points="220,103 280,103 250,83 190,83" fill="#ffffff" opacity="0.06"/>
+<text x="220" y="330" class="label">FY-Induction</text>
+<text x="220" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="380,300 440,300 440,225 380,225" fill="#e34c26" opacity="0.95"/>
+<polygon points="380,225 440,225 410,205 350,205" fill="#ffffff" opacity="0.06"/>
+<text x="380" y="330" class="label">AutoEval</text>
+<text x="380" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="540,300 600,300 600,247 540,247" fill="#e34c26" opacity="0.95"/>
+<polygon points="540,247 600,247 570,227 510,227" fill="#ffffff" opacity="0.06"/>
+<text x="540" y="330" class="label">FDP-AI-Project</text>
+<text x="540" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="700,300 760,300 760,258 700,258" fill="#6c757d" opacity="0.95"/>
+<polygon points="700,258 760,258 730,238 670,238" fill="#ffffff" opacity="0.06"/>
+<text x="700" y="330" class="label">UWS</text>
+<text x="700" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="860,300 920,300 920,236 860,236" fill="#e34c26" opacity="0.95"/>
+<polygon points="860,236 920,236 890,216 830,216" fill="#ffffff" opacity="0.06"/>
+<text x="860" y="330" class="label">SDG_EduPulseAI</text>
+<text x="860" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="1020,300 1080,300 1080,203 1020,203" fill="#f1e05a" opacity="0.95"/>
+<polygon points="1020,203 1080,203 1050,183 990,183" fill="#ffffff" opacity="0.06"/>
+<text x="1020" y="330" class="label">Study-buddy</text>
+<text x="1020" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="1180,300 1240,300 1240,180 1180,180" fill="#2b7489" opacity="0.95"/>
+<polygon points="1180,180 1240,180 1210,160 1150,160" fill="#ffffff" opacity="0.06"/>
+<text x="1180" y="330" class="label">PlantCare_AI</text>
+<text x="1180" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="1340,300 1400,300 1400,169 1340,169" fill="#3572A5" opacity="0.95"/>
+<polygon points="1340,169 1400,169 1370,149 1310,149" fill="#ffffff" opacity="0.06"/>
+<text x="1340" y="330" class="label">coastal-area-risk-</text>
+<text x="1340" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="1500,300 1560,300 1560,280 1500,280" fill="#b07219" opacity="0.95"/>
+<polygon points="1500,280 1560,280 1530,260 1470,260" fill="#ffffff" opacity="0.06"/>
+<text x="1500" y="330" class="label">college_system</text>
+<text x="1500" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="1660,300 1720,300 1720,247 1660,247" fill="#2b7489" opacity="0.95"/>
+<polygon points="1660,247 1720,247 1690,227 1630,227" fill="#ffffff" opacity="0.06"/>
+<text x="1660" y="330" class="label">Blogic-Engine-prom</text>
+<text x="1660" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="1820,300 1880,300 1880,236 1820,236" fill="#6c757d" opacity="0.95"/>
+<polygon points="1820,236 1880,236 1850,216 1790,216" fill="#ffffff" opacity="0.06"/>
+<text x="1820" y="330" class="label">college-need</text>
+<text x="1820" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="1980,300 2040,300 2040,147 1980,147" fill="#f1e05a" opacity="0.95"/>
+<polygon points="1980,147 2040,147 2010,127 1950,127" fill="#ffffff" opacity="0.06"/>
+<text x="1980" y="330" class="label">money-tracker</text>
+<text x="1980" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="2140,300 2200,300 2200,236 2140,236" fill="#2b7489" opacity="0.95"/>
+<polygon points="2140,236 2200,236 2170,216 2110,216" fill="#ffffff" opacity="0.06"/>
+<text x="2140" y="330" class="label">academic-dashboard</text>
+<text x="2140" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="2300,300 2360,300 2360,258 2300,258" fill="#3572A5" opacity="0.95"/>
+<polygon points="2300,258 2360,258 2330,238 2270,238" fill="#ffffff" opacity="0.06"/>
+<text x="2300" y="330" class="label">EVS_dashboard</text>
+<text x="2300" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="2460,300 2520,300 2520,214 2460,214" fill="#3572A5" opacity="0.95"/>
+<polygon points="2460,214 2520,214 2490,194 2430,194" fill="#ffffff" opacity="0.06"/>
+<text x="2460" y="330" class="label">Evs-repo</text>
+<text x="2460" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="2620,300 2680,300 2680,269 2620,269" fill="#e34c26" opacity="0.95"/>
+<polygon points="2620,269 2680,269 2650,249 2590,249" fill="#ffffff" opacity="0.06"/>
+<text x="2620" y="330" class="label">Newyear-2026</text>
+<text x="2620" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="2780,300 2840,300 2840,225 2780,225" fill="#2b7489" opacity="0.95"/>
+<polygon points="2780,225 2840,225 2810,205 2750,205" fill="#ffffff" opacity="0.06"/>
+<text x="2780" y="330" class="label">CarboNIL</text>
+<text x="2780" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="2940,300 3000,300 3000,214 2940,214" fill="#2b7489" opacity="0.95"/>
+<polygon points="2940,214 3000,214 2970,194 2910,194" fill="#ffffff" opacity="0.06"/>
+<text x="2940" y="330" class="label">stats-wizard-guide</text>
+<text x="2940" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="3100,300 3160,300 3160,280 3100,280" fill="#2b7489" opacity="0.95"/>
+<polygon points="3100,280 3160,280 3130,260 3070,260" fill="#ffffff" opacity="0.06"/>
+<text x="3100" y="330" class="label">healthsync-caregiv</text>
+<text x="3100" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="3260,300 3320,300 3320,280 3260,280" fill="#6c757d" opacity="0.95"/>
+<polygon points="3260,280 3320,280 3290,260 3230,260" fill="#ffffff" opacity="0.06"/>
+<text x="3260" y="330" class="label">MathtoolZ</text>
+<text x="3260" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="3420,300 3480,300 3480,280 3420,280" fill="#f34b7d" opacity="0.95"/>
+<polygon points="3420,280 3480,280 3450,260 3390,260" fill="#ffffff" opacity="0.06"/>
+<text x="3420" y="330" class="label">DSA</text>
+<text x="3420" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="3580,300 3640,300 3640,247 3580,247" fill="#6c757d" opacity="0.95"/>
+<polygon points="3580,247 3640,247 3610,227 3550,227" fill="#ffffff" opacity="0.06"/>
+<text x="3580" y="330" class="label">titanic-feature-en</text>
+<text x="3580" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="3740,300 3800,300 3800,280 3740,280" fill="#6c757d" opacity="0.95"/>
+<polygon points="3740,280 3800,280 3770,260 3710,260" fill="#ffffff" opacity="0.06"/>
+<text x="3740" y="330" class="label">Spin-to-earn-apk</text>
+<text x="3740" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="3900,300 3960,300 3960,269 3900,269" fill="#3572A5" opacity="0.95"/>
+<polygon points="3900,269 3960,269 3930,249 3870,249" fill="#ffffff" opacity="0.06"/>
+<text x="3900" y="330" class="label">kolam</text>
+<text x="3900" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="4060,300 4120,300 4120,258 4060,258" fill="#f1e05a" opacity="0.95"/>
+<polygon points="4060,258 4120,258 4090,238 4030,238" fill="#ffffff" opacity="0.06"/>
+<text x="4060" y="330" class="label">Statistic-project</text>
+<text x="4060" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="4220,300 4280,300 4280,258 4220,258" fill="#3572A5" opacity="0.95"/>
+<polygon points="4220,258 4280,258 4250,238 4190,238" fill="#ffffff" opacity="0.06"/>
+<text x="4220" y="330" class="label">Pushup-counter</text>
+<text x="4220" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="4380,300 4440,300 4440,203 4380,203" fill="#f1e05a" opacity="0.95"/>
+<polygon points="4380,203 4440,203 4410,183 4350,183" fill="#ffffff" opacity="0.06"/>
+<text x="4380" y="330" class="label">Tic-Tac-Toe</text>
+<text x="4380" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="4540,300 4600,300 4600,225 4540,225" fill="#563d7c" opacity="0.95"/>
+<polygon points="4540,225 4600,225 4570,205 4510,205" fill="#ffffff" opacity="0.06"/>
+<text x="4540" y="330" class="label">Calculator</text>
+<text x="4540" y="346" class="label">★ 1</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="4700,300 4760,300 4760,258 4700,258" fill="#e34c26" opacity="0.95"/>
+<polygon points="4700,258 4760,258 4730,238 4670,238" fill="#ffffff" opacity="0.06"/>
+<text x="4700" y="330" class="label">Clones</text>
+<text x="4700" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="4860,300 4920,300 4920,247 4860,247" fill="#b07219" opacity="0.95"/>
+<polygon points="4860,247 4920,247 4890,227 4830,227" fill="#ffffff" opacity="0.06"/>
+<text x="4860" y="330" class="label">ANP-D1154-JAVA-</text>
+<text x="4860" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="5020,300 5080,300 5080,80 5020,80" fill="#e34c26" opacity="0.95"/>
+<polygon points="5020,80 5080,80 5050,60 4990,60" fill="#ffffff" opacity="0.06"/>
+<text x="5020" y="330" class="label">Digital-Portfolio</text>
+<text x="5020" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:4.5s">
+<polygon points="5180,300 5240,300 5240,214 5180,214" fill="#3572A5" opacity="0.95"/>
+<polygon points="5180,214 5240,214 5210,194 5150,194" fill="#ffffff" opacity="0.06"/>
+<text x="5180" y="330" class="label">Healthcare-Assista</text>
+<text x="5180" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:2.5s">
+<polygon points="5340,300 5400,300 5400,236 5340,236" fill="#3572A5" opacity="0.95"/>
+<polygon points="5340,236 5400,236 5370,216 5310,216" fill="#ffffff" opacity="0.06"/>
+<text x="5340" y="330" class="label">certificate-video</text>
+<text x="5340" y="346" class="label">★ 0</text>
+</g>
+<g class="building pulse-fast" style="animation-duration:3.5s">
+<polygon points="5500,300 5560,300 5560,169 5500,169" fill="#e34c26" opacity="0.95"/>
+<polygon points="5500,169 5560,169 5530,149 5470,149" fill="#ffffff" opacity="0.06"/>
+<text x="5500" y="330" class="label">Quantum-Computing-</text>
+<text x="5500" y="346" class="label">★ 0</text>
+</g>
+<text x="28" y="350" class="label">Languages: 21 · Total commits: 167</text>
+</svg>
