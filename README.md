@@ -41,17 +41,13 @@ Hello! I'm Nikheel, a developer who loves building everything from interactive, 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikheel108&show_icons=true&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Nikheel108&show_icons=true&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikheel108&theme=dark&background=0d1117&ring=FF0080&fire=FF0080&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00E5FF&sideLabels=00E5FF&dates=ffffff&stroke=7928CA" alt="GitHub Streak" width="48%" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikheel108&layout=compact&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Nikheel108&layout=compact&bg_color=0d1117&title_color=00E5FF&text_color=ffffff&icon_color=FF0080&border_color=7928CA" alt="Top Languages" width="48%" />
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nikheel108&theme=radical&row=1&column=6&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="Trophies" />
-</div>
 
 ## 🐍 Contribution Snake
 
