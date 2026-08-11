@@ -32,6 +32,11 @@ except Exception:
 API = 'https://api.github.com'
 
 
+def get_token(env: Dict[str, str] | None = None) -> str | None:
+    env = env or os.environ
+    return env.get('PERSONAL_TOKEN') or env.get('GITHUB_TOKEN') or env.get('GH_TOKEN')
+
+
 def gh_headers(token: str, extra_accept: str = None):
     h = {'Authorization': f'token {token}', 'Accept': 'application/vnd.github.v3+json'}
     if extra_accept:
@@ -287,9 +292,9 @@ def update_profile_readme(token: str, owner: str, repo: str, branch: str, image_
 
 
 def main():
-    token = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
+    token = get_token()
     if not token:
-        print('Error: set GITHUB_TOKEN environment variable')
+        print('Error: set PERSONAL_TOKEN, GITHUB_TOKEN, or GH_TOKEN environment variable')
         sys.exit(1)
     username = None
     try:
