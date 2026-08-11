@@ -1,3 +1,7 @@
+<!-- ACTIVITY:START -->
+![Coding activity](https://raw.githubusercontent.com/Nikheel108/Nikheel108/main/assets/activity.svg)
+<!-- ACTIVITY:END -->
+
 ## Hi there 👋
 
 <!--
